@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var originalArray = [3, 1, 4, 5, 9, 2, 6];
+
+
+var sortedArray = originalArray.sort(function(a, b) {
+  return b - a; 
+});
+
+console.log(sortedArray); // Outputs: [9, 6, 5, 4, 3, 2, 1]
+</script>
+</body>
+</html>
